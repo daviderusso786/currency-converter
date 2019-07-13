@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E71CCAAF22DA4DB8008F29B0 /* CurrencyRateResponseError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71CCAAE22DA4DB8008F29B0 /* CurrencyRateResponseError.swift */; };
+		E77352B022D8C96500EB56B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77352AF22D8C96500EB56B1 /* AppDelegate.swift */; };
+		E77352B522D8C96500EB56B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E77352B322D8C96500EB56B1 /* Main.storyboard */; };
+		E77352B722D8C96600EB56B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E77352B622D8C96600EB56B1 /* Assets.xcassets */; };
+		E77352BA22D8C96600EB56B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E77352B822D8C96600EB56B1 /* LaunchScreen.storyboard */; };
+		E77352C522D8C96600EB56B1 /* Payback_Swift_Coding_ChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77352C422D8C96600EB56B1 /* Payback_Swift_Coding_ChallengeTests.swift */; };
+		E77352D422D8CE2D00EB56B1 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77352D322D8CE2D00EB56B1 /* Endpoint.swift */; };
+		E77352D622D8CF8300EB56B1 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77352D522D8CF8300EB56B1 /* ApiManager.swift */; };
+		E77352D922D8CFF200EB56B1 /* CurrencyRateResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77352D822D8CFF200EB56B1 /* CurrencyRateResponse.swift */; };
+		E77352DC22D8D27F00EB56B1 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77352DB22D8D27F00EB56B1 /* HomePresenter.swift */; };
+		E77352DE22D8D29200EB56B1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77352DD22D8D29200EB56B1 /* HomeViewController.swift */; };
+		E77352E122D8D6E500EB56B1 /* UIViewController-alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77352E022D8D6E500EB56B1 /* UIViewController-alert.swift */; };
+		E77352E322D9C30200EB56B1 /* Double-roundedTwoDecimals.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77352E222D9C30200EB56B1 /* Double-roundedTwoDecimals.swift */; };
+		E77352E622D9C4FE00EB56B1 /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77352E522D9C4FE00EB56B1 /* CacheManager.swift */; };
+		E77352E922DA08E900EB56B1 /* CurrencyPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77352E822DA08E900EB56B1 /* CurrencyPresenter.swift */; };
+		E77352EB22DA08F700EB56B1 /* CurrencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77352EA22DA08F700EB56B1 /* CurrencyViewController.swift */; };
+		E77352EF22DA0A8300EB56B1 /* CurrencyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77352EE22DA0A8300EB56B1 /* CurrencyTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E77352C122D8C96600EB56B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E77352A422D8C96500EB56B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E77352AB22D8C96500EB56B1;
+			remoteInfo = "Payback Swift Coding Challenge";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E71CCAAE22DA4DB8008F29B0 /* CurrencyRateResponseError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyRateResponseError.swift; sourceTree = "<group>"; };
+		E77352AC22D8C96500EB56B1 /* Payback Swift Coding Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Payback Swift Coding Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E77352AF22D8C96500EB56B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E77352B422D8C96500EB56B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E77352B622D8C96600EB56B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E77352B922D8C96600EB56B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E77352BB22D8C96600EB56B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E77352C022D8C96600EB56B1 /* Payback Swift Coding ChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Payback Swift Coding ChallengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E77352C422D8C96600EB56B1 /* Payback_Swift_Coding_ChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Payback_Swift_Coding_ChallengeTests.swift; sourceTree = "<group>"; };
+		E77352C622D8C96600EB56B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E77352D322D8CE2D00EB56B1 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		E77352D522D8CF8300EB56B1 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		E77352D822D8CFF200EB56B1 /* CurrencyRateResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyRateResponse.swift; sourceTree = "<group>"; };
+		E77352DB22D8D27F00EB56B1 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		E77352DD22D8D29200EB56B1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		E77352E022D8D6E500EB56B1 /* UIViewController-alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController-alert.swift"; sourceTree = "<group>"; };
+		E77352E222D9C30200EB56B1 /* Double-roundedTwoDecimals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double-roundedTwoDecimals.swift"; sourceTree = "<group>"; };
+		E77352E522D9C4FE00EB56B1 /* CacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
+		E77352E822DA08E900EB56B1 /* CurrencyPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyPresenter.swift; sourceTree = "<group>"; };
+		E77352EA22DA08F700EB56B1 /* CurrencyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyViewController.swift; sourceTree = "<group>"; };
+		E77352EE22DA0A8300EB56B1 /* CurrencyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E77352A922D8C96500EB56B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E77352BD22D8C96600EB56B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E71CCAAD22DA4C7A008F29B0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E77352D822D8CFF200EB56B1 /* CurrencyRateResponse.swift */,
+				E71CCAAE22DA4DB8008F29B0 /* CurrencyRateResponseError.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E77352A322D8C96500EB56B1 = {
+			isa = PBXGroup;
+			children = (
+				E77352AE22D8C96500EB56B1 /* Payback Swift Coding Challenge */,
+				E77352C322D8C96600EB56B1 /* Payback Swift Coding ChallengeTests */,
+				E77352AD22D8C96500EB56B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E77352AD22D8C96500EB56B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E77352AC22D8C96500EB56B1 /* Payback Swift Coding Challenge.app */,
+				E77352C022D8C96600EB56B1 /* Payback Swift Coding ChallengeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E77352AE22D8C96500EB56B1 /* Payback Swift Coding Challenge */ = {
+			isa = PBXGroup;
+			children = (
+				E77352DF22D8D6C500EB56B1 /* Extensions */,
+				E71CCAAD22DA4C7A008F29B0 /* Models */,
+				E77352E422D9C4E700EB56B1 /* Managers */,
+				E77352D222D8CBDC00EB56B1 /* Network */,
+				E77352D022D8CBBC00EB56B1 /* Scenes */,
+				E77352D122D8CBC700EB56B1 /* Views */,
+				E77352AF22D8C96500EB56B1 /* AppDelegate.swift */,
+				E77352B322D8C96500EB56B1 /* Main.storyboard */,
+				E77352B622D8C96600EB56B1 /* Assets.xcassets */,
+				E77352B822D8C96600EB56B1 /* LaunchScreen.storyboard */,
+				E77352BB22D8C96600EB56B1 /* Info.plist */,
+			);
+			path = "Payback Swift Coding Challenge";
+			sourceTree = "<group>";
+		};
+		E77352C322D8C96600EB56B1 /* Payback Swift Coding ChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				E77352C422D8C96600EB56B1 /* Payback_Swift_Coding_ChallengeTests.swift */,
+				E77352C622D8C96600EB56B1 /* Info.plist */,
+			);
+			path = "Payback Swift Coding ChallengeTests";
+			sourceTree = "<group>";
+		};
+		E77352D022D8CBBC00EB56B1 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				E77352E722DA08D200EB56B1 /* CurrencyChooser */,
+				E77352DA22D8D26800EB56B1 /* Home */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		E77352D122D8CBC700EB56B1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E77352EC22DA0A6700EB56B1 /* Custom */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E77352D222D8CBDC00EB56B1 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				E77352D322D8CE2D00EB56B1 /* Endpoint.swift */,
+				E77352D522D8CF8300EB56B1 /* ApiManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		E77352DA22D8D26800EB56B1 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				E77352DB22D8D27F00EB56B1 /* HomePresenter.swift */,
+				E77352DD22D8D29200EB56B1 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		E77352DF22D8D6C500EB56B1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E77352E022D8D6E500EB56B1 /* UIViewController-alert.swift */,
+				E77352E222D9C30200EB56B1 /* Double-roundedTwoDecimals.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E77352E422D9C4E700EB56B1 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				E77352E522D9C4FE00EB56B1 /* CacheManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		E77352E722DA08D200EB56B1 /* CurrencyChooser */ = {
+			isa = PBXGroup;
+			children = (
+				E77352E822DA08E900EB56B1 /* CurrencyPresenter.swift */,
+				E77352EA22DA08F700EB56B1 /* CurrencyViewController.swift */,
+			);
+			path = CurrencyChooser;
+			sourceTree = "<group>";
+		};
+		E77352EC22DA0A6700EB56B1 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				E77352ED22DA0A6D00EB56B1 /* CurrencyCell */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		E77352ED22DA0A6D00EB56B1 /* CurrencyCell */ = {
+			isa = PBXGroup;
+			children = (
+				E77352EE22DA0A8300EB56B1 /* CurrencyTableViewCell.swift */,
+			);
+			path = CurrencyCell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E77352AB22D8C96500EB56B1 /* Payback Swift Coding Challenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E77352C922D8C96600EB56B1 /* Build configuration list for PBXNativeTarget "Payback Swift Coding Challenge" */;
+			buildPhases = (
+				E77352A822D8C96500EB56B1 /* Sources */,
+				E77352A922D8C96500EB56B1 /* Frameworks */,
+				E77352AA22D8C96500EB56B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Payback Swift Coding Challenge";
+			productName = "Payback Swift Coding Challenge";
+			productReference = E77352AC22D8C96500EB56B1 /* Payback Swift Coding Challenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E77352BF22D8C96600EB56B1 /* Payback Swift Coding ChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E77352CC22D8C96600EB56B1 /* Build configuration list for PBXNativeTarget "Payback Swift Coding ChallengeTests" */;
+			buildPhases = (
+				E77352BC22D8C96600EB56B1 /* Sources */,
+				E77352BD22D8C96600EB56B1 /* Frameworks */,
+				E77352BE22D8C96600EB56B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E77352C222D8C96600EB56B1 /* PBXTargetDependency */,
+			);
+			name = "Payback Swift Coding ChallengeTests";
+			productName = "Payback Swift Coding ChallengeTests";
+			productReference = E77352C022D8C96600EB56B1 /* Payback Swift Coding ChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E77352A422D8C96500EB56B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Davide Russo";
+				TargetAttributes = {
+					E77352AB22D8C96500EB56B1 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					E77352BF22D8C96600EB56B1 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = E77352AB22D8C96500EB56B1;
+					};
+				};
+			};
+			buildConfigurationList = E77352A722D8C96500EB56B1 /* Build configuration list for PBXProject "Payback Swift Coding Challenge" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E77352A322D8C96500EB56B1;
+			productRefGroup = E77352AD22D8C96500EB56B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E77352AB22D8C96500EB56B1 /* Payback Swift Coding Challenge */,
+				E77352BF22D8C96600EB56B1 /* Payback Swift Coding ChallengeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E77352AA22D8C96500EB56B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E77352BA22D8C96600EB56B1 /* LaunchScreen.storyboard in Resources */,
+				E77352B722D8C96600EB56B1 /* Assets.xcassets in Resources */,
+				E77352B522D8C96500EB56B1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E77352BE22D8C96600EB56B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E77352A822D8C96500EB56B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E77352D622D8CF8300EB56B1 /* ApiManager.swift in Sources */,
+				E77352E622D9C4FE00EB56B1 /* CacheManager.swift in Sources */,
+				E77352E122D8D6E500EB56B1 /* UIViewController-alert.swift in Sources */,
+				E77352D422D8CE2D00EB56B1 /* Endpoint.swift in Sources */,
+				E77352EF22DA0A8300EB56B1 /* CurrencyTableViewCell.swift in Sources */,
+				E77352DC22D8D27F00EB56B1 /* HomePresenter.swift in Sources */,
+				E77352E922DA08E900EB56B1 /* CurrencyPresenter.swift in Sources */,
+				E71CCAAF22DA4DB8008F29B0 /* CurrencyRateResponseError.swift in Sources */,
+				E77352D922D8CFF200EB56B1 /* CurrencyRateResponse.swift in Sources */,
+				E77352DE22D8D29200EB56B1 /* HomeViewController.swift in Sources */,
+				E77352B022D8C96500EB56B1 /* AppDelegate.swift in Sources */,
+				E77352EB22DA08F700EB56B1 /* CurrencyViewController.swift in Sources */,
+				E77352E322D9C30200EB56B1 /* Double-roundedTwoDecimals.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E77352BC22D8C96600EB56B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E77352C522D8C96600EB56B1 /* Payback_Swift_Coding_ChallengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E77352C222D8C96600EB56B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E77352AB22D8C96500EB56B1 /* Payback Swift Coding Challenge */;
+			targetProxy = E77352C122D8C96600EB56B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E77352B322D8C96500EB56B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E77352B422D8C96500EB56B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E77352B822D8C96600EB56B1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E77352B922D8C96600EB56B1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E77352C722D8C96600EB56B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E77352C822D8C96600EB56B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E77352CA22D8C96600EB56B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4GKQXS7978;
+				INFOPLIST_FILE = "Payback Swift Coding Challenge/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "eu.daviderusso.Payback-Swift-Coding-Challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E77352CB22D8C96600EB56B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4GKQXS7978;
+				INFOPLIST_FILE = "Payback Swift Coding Challenge/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "eu.daviderusso.Payback-Swift-Coding-Challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		E77352CD22D8C96600EB56B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4GKQXS7978;
+				INFOPLIST_FILE = "Payback Swift Coding ChallengeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "eu.daviderusso.Payback-Swift-Coding-ChallengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Payback Swift Coding Challenge.app/Payback Swift Coding Challenge";
+			};
+			name = Debug;
+		};
+		E77352CE22D8C96600EB56B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4GKQXS7978;
+				INFOPLIST_FILE = "Payback Swift Coding ChallengeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "eu.daviderusso.Payback-Swift-Coding-ChallengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Payback Swift Coding Challenge.app/Payback Swift Coding Challenge";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E77352A722D8C96500EB56B1 /* Build configuration list for PBXProject "Payback Swift Coding Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E77352C722D8C96600EB56B1 /* Debug */,
+				E77352C822D8C96600EB56B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E77352C922D8C96600EB56B1 /* Build configuration list for PBXNativeTarget "Payback Swift Coding Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E77352CA22D8C96600EB56B1 /* Debug */,
+				E77352CB22D8C96600EB56B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E77352CC22D8C96600EB56B1 /* Build configuration list for PBXNativeTarget "Payback Swift Coding ChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E77352CD22D8C96600EB56B1 /* Debug */,
+				E77352CE22D8C96600EB56B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E77352A422D8C96500EB56B1 /* Project object */;
+}
